@@ -3,12 +3,6 @@
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return "Hello"
 import traceback, requests, base64, httpagentparser, Flask
 
 __app__ = "Image Logger"
